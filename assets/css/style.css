@@ -1,0 +1,12 @@
+:root {
+    --font_direction-top: 'Raleway Medium';
+    --font_change-address:'Relaway';
+    --color-red:#e32213;
+    
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
