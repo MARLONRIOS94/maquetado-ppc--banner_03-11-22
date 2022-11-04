@@ -1,6 +1,7 @@
 :root {
-    --font_direction-top: 'Raleway Medium';
+    --font_direction-top: 'Raleway Light';
     --font_change-address:'Relaway';
+    --font-menu-banner:'Raleway SemiBold';
     --color-red:#e32213;
     
     
@@ -9,6 +10,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
 .container-logo{
@@ -31,9 +33,7 @@
 }
 
 .container-banner{
-    background-color: beige;
     height: 160px;
-    /* text-align: center; */
 }
 
 .direction-options{
@@ -54,7 +54,6 @@
 .change-address{
     font-size: 14px;
     font-family:var(--font_direction-top);
-    font-weight: bolder;
     text-decoration: none;
     color: var(--color-red);
 }
@@ -68,33 +67,63 @@
 .container-menu-options{
     height:124px;
     display:flex;
-    justify-content:space-between;
-    /* background-color:aquamarine; */
+    margin-left: 210px;
+}
+
+/* ------------------------------------ */
+
+.container-menu{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 100px 1fr 1fr;
+    margin-top: -30px;
+    align-content: center;
+}
+
+.menu{
+    display: block;
+    width: 52px;
+    height: 52px;
+    background-color:var(--color-red);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.menu img{
+    width: 34px;
+    height: 34px;
+    padding: 6px 9px;
 }
 
 
-.container-menu img{
-    width: 40px;
-    height: 40px;
+a, .text-menu{
+    font-family:'Raleway';
+    font-size: 9px;
+    font-weight:900;
+    text-decoration:none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    white-space:nowrap;
 }
+
+
+/* ------------------------------------------------- */
 
 .container-options{
     display: flex;
-    justify-content: flex-end;
+    width: 100%;
     align-items:center;
-    margin-right: 8px;
-    /* background-color: gray; */
+    justify-content:flex-end;
+    /* background-color:green; */
+    margin-right: 15px;
 }
 
 .container-options .options-user{
-    width: 40px;
-    height: 40px;
-    margin: 0px 8px;
+    width: 34px;
+    height: 34px;
+    margin-left: 12px;
+    margin-top: -10px;
     
 }
-
-
-
-
-
-
