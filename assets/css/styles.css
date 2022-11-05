@@ -117,9 +117,8 @@ a, .text-menu{
 }
 
 .container-options .options-user{
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
     margin-left: 12px;
-    margin-top: -10px;
-    
+    margin-top: -10px; 
 }
