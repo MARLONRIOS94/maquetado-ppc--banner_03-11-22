@@ -2,15 +2,12 @@
     --font_direction-top: 'Raleway Light';
     --font_change-address:'Relaway';
     --font-menu-banner:'Raleway SemiBold';
-    --color-red:#e32213;
-    
-    
+    --color-red:#e32213;  
 }
 
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
 }
 
 .container-logo{
@@ -116,7 +113,6 @@ a, .text-menu{
     width: 100%;
     align-items:center;
     justify-content:flex-end;
-    /* background-color:green; */
     margin-right: 15px;
 }
 
