@@ -43,6 +43,7 @@
     margin-right: 8px;
     font-size: 14px;
     font-family: var(--font_direction-top);
+    font-weight: lighter;
     text-decoration: none;
     color:inherit;
 
@@ -122,3 +123,12 @@ a, .text-menu{
     margin-left: 12px;
     margin-top: -10px; 
 }
+
+
+@media screen and (min-width: 500px){
+
+
+
+
+
+    }
