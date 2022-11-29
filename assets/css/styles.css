@@ -127,6 +127,11 @@ a, .text-menu{
 /* Responsive tablet */
 
 @media only screen and (max-width: 768px){
+    .direction-options{
+        display: none;
+    }
+
+
     .container-menu{
         overflow:auto;
     }
@@ -155,11 +160,6 @@ a, .text-menu{
         white-space:normal;
     }
 
-    .direction-options{
-        display: block;
-        text-align: center;
-        align-items: center;
-    }
 }
 
 
