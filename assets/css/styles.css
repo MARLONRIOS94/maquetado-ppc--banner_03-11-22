@@ -124,7 +124,7 @@ a, .text-menu{
     margin-top: -10px; 
 }
 
-/* media queries tablet */
+/* Responsive tablet */
 
 @media only screen and (max-width: 768px){
     .container-menu{
@@ -160,4 +160,29 @@ a, .text-menu{
         text-align: center;
         align-items: center;
     }
+}
+
+
+/* responsive mobile */
+@media only screen and (max-width: 375px){
+    .container-logo{
+        width: 130px;
+        height: 130px;
+        top:10px;
+        
+       
+    }
+
+    .container-logo img{
+        width: 60px;
+        height: 25px;
+        margin-left: 35px;
+    }
+
+
+    .direction-options{
+        display: none;
+    }
+
+
 }
